@@ -5,8 +5,8 @@ export const LOCAL_TRANSLATE_SERVER = process.env.LOCAL_TRANSLATE_HOST
           process.env.LOCAL_TRANSLATE_HOST.startsWith("http")
               ? process.env.LOCAL_TRANSLATE_HOST
               : "//" + process.env.LOCAL_TRANSLATE_HOST
-      }/prompt-studio`
-    : "https://tryserverlessnode-fuzhu666.vercel.app/api"
+      }/api`
+    : "http://localhost:39011/prompt-studio"
 
 
 
